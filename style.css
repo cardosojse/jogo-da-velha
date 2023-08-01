@@ -1,3 +1,9 @@
+@media screen and (max-width: 600px) {
+    .win-msg p{
+        text-align: center;
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -119,4 +125,7 @@ body{
 .win-msg button:hover{
     color: rgba(65, 184, 131, 1);
     background-color: #fff;
+}
+.show-win-msg{
+    display: flex;
 }
